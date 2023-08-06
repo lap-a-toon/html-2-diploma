@@ -7,11 +7,15 @@
 @font-face {
     font-family: OpenSans;
     src: url('https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: OpenSans;
     src: url('https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff');
     font-weight: bold;
+    font-display: swap;
 }
 
 *{
