@@ -371,9 +371,15 @@ section.tags  .aside__header:after {
   line-height:47px;
   font-weight: bold;
 }
+.themes-list__item{
+  border-bottom:1px solid #eeeeee
+}
 .themes-list__item a{
   text-decoration:none;
   color:#000000;
+}
+.themes-list__item a:hover{
+    color: var(--focus-color);
 }
 .themes-list__item .themes-counter{
   font-size:12px;
@@ -406,4 +412,7 @@ section.tags  .aside__header:after {
   font-weight:bold;
   text-align:center;
   color:#999999;
+}
+.footer{
+    margin-bottom: 40px;
 }
