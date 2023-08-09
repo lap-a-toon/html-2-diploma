@@ -64,6 +64,7 @@ body{
 .logo{
     max-width: 182px;
     padding-left: 3px;
+    min-width: 182px;
 }
 .logo a{
     padding: 0;
@@ -115,6 +116,9 @@ img{
     text-decoration: none;
     font-size: 13px;
     letter-spacing: 0.05px;
+}
+.menu__item a:hover{
+    text-decoration: underline;
 }
 .menu__item:not(:first-child){
   margin-left:35px;
@@ -175,6 +179,9 @@ img{
   color: var(--focus-color);
   text-decoration:none;
 }
+.post__tags a:hover{
+    text-decoration: underline;
+}
 .post p{
   margin:0;
   margin-bottom: 12px;
@@ -191,9 +198,21 @@ img{
   text-decoration:none;
   color:#000;
 }
+.post__title a:hover{
+    color: var(--focus-color);
+}
 .post__description{
   font-size: 15px;
   line-height:22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  line-clamp: 5;
+  box-orient: vertical;
 }
 .post__meta{
   display:flex;
@@ -428,6 +447,13 @@ section.tags  .aside__header:after {
   text-align:center;
   color:#999999;
   padding-left:11px
+}
+.copyright a{
+  text-decoration:none;
+  color:inherit;
+}
+.copyright a:hover{
+    color:#666666;
 }
 .footer{
     margin-bottom: 40px;
