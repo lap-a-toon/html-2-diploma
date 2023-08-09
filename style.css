@@ -170,10 +170,11 @@ img{
   font-size:14px;
   line-height: 2.4;
   margin-top: -10px;
+  flex-wrap: wrap;
   margin-bottom: -0.2px;
 }
-.post__tag:not(:first-child){
-  margin-left: 19px;
+.post__tag:not(:last-child){
+  margin-right: 19px;
 }
 .post__tags a{
   color: var(--focus-color);
