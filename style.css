@@ -338,7 +338,7 @@ section.search{
 }
 .aside>section.tags{
   margin-top: 24px;
-  margin-bottom: 58px;
+  margin-bottom: 54px;
 }
 section.tags  .aside__header:after {
   margin-bottom: 24px;
@@ -383,7 +383,7 @@ section.tags  .aside__header:after {
   padding:0;
   list-style:none;
   font-size:14px;
-  line-height:47px;
+  line-height: 45.4px;
   font-weight: bold;
 }
 .themes-list__item{
